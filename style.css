@@ -1,0 +1,46 @@
+#headline {
+    background-image: url("./Backgrounds/destop.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-size: 40%;
+    height: 100vh;
+}
+
+.card {
+    justify-content: flex-end;
+    height: 60vh;
+}
+
+#art-print {
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 15%, 0), hsla(0, 0%, 15%, 0.9)),
+    url("./Project-images/data-dashboard-hovered.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#art-print:hover {
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 15%, 0), hsla(0, 0%, 15%, 0.9)),
+    url("./Project-images/desktop-grid3-background-A.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card:hover {
+    border: 1px solid black;
+}
+
+#art-print:hover h3,
+#art-print:hover p {
+    display: none;
+}
+
+#project-btn {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+.card:hover #project-btn {
+    display: block;
+}
